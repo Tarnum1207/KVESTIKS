@@ -1,0 +1,79 @@
+.pay-wrapper
+  width: 261px
+  position: sticky
+  top: 80px
+  margin-top: 50px
+
+.pay
+  width: 100%
+  padding: 20px 22.6px
+  background-color: #fff
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.08)
+  border-radius: 8px
+
+  &-title
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    margin-bottom: 24px
+
+    &__img
+      display: flex
+      flex-direction: row
+      align-items: center
+      justify-content: space-between
+      width: 100%
+      gap: 18px
+
+    p
+      font-weight: 400
+      font-size: 13px
+      color: rgba(56, 56, 56, 0.8)
+      margin-bottom: 8px
+
+.pay-another-country
+  font-size: 16px
+  text-align: center
+  font-weight: 400
+  width: 171px
+  margin: 0 auto
+  color: rgba(56, 56, 56, 1)
+  margin-bottom: 24px
+
+  span a
+    color: rgba(221, 78, 0, 1)
+
+
+.pay-button
+  width: 219px
+  background-color: rgba(247, 120, 51, 1)
+  height: 52px
+  color: #fff
+  font-weight: 700
+  font-size: 16px
+  border: 0
+  border-radius: 8px
+  box-shadow: 0px 1px 3px 1px rgba(188, 66, 0, 0.15)
+  margin-top: 24px
+  cursor: pointer
+  transition: .3s
+
+  &:hover
+    background-color: #f95b1b
+
+@media screen and (max-width: 425px)
+  .pay-wrapper
+    width: 100%
+    margin-top: 24px
+
+  .pay
+    padding: 10px 12px
+    &-title
+      display: none
+
+    &-another-country
+      display: none
+
+  button
+    width: 100%
